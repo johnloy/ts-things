@@ -1,10 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "dev": "slidev",
-    "build": "slidev build",
-    "export": "slidev export"
+    "start": "npm --prefix vite run dev"
   },
+  "workspaces": [
+    "vite"
+  ],
   "dependencies": {
     "@slidev/cli": "latest",
     "@slidev/theme-default": "latest",
